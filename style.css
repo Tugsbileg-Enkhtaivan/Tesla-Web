@@ -1,0 +1,634 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.Main {
+    background-image: url(https://s3-alpha-sig.figma.com/img/6d7a/23be/cb6af393851dc03dd35d09417c2ceadd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A2N1EiDXM78oEnfcqRNcU562vlI74OmHRzJ6gdG0lwT6TONFSwasuBvISCW4CD~kO71En3Ubpl1G4IIWdvUKZwOdr60YwxbPTilUKhYChQJHuwDuGsziQGRFYx3OEN4csRQlfOXYPlmjwG0DH0Eb4EJ6RiB4OeuFtLPrHAOhUt4tIjMbo9~sCF58KaDK0rs0yIM-BEa9eeudJ8bFsWMttKRi7d3pwB2~4mejediSzRuOMWpZL5y37KfgSo7KZ6-ssyfO-My6qJQrwon7D~wwzTDbn45qxHhqL8bOK8ezuEtTms7QTrO4I5kT7-8gxp0SBhk31iPD0ipPkvKoYEoTjw__);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.header-box {
+    position: fixed;
+    background-color: #00000005;
+    backdrop-filter: blur(8px);
+    height: 56px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.Tesla-box {
+    background-image: url(Tesla\ Logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 56px;
+    /* gap: 8px; */
+    margin: 10px;
+}
+
+.navigation {
+    font-family: "Sen", sans-serif;
+    /* background-color: blue; */
+    width: 420px;
+    height: 56px;
+    padding: 12px 8px;
+}
+
+#p {
+    text-decoration: none;
+}
+
+.p {
+    transition: ease-in-out 0.4s;
+}
+
+.p:hover {
+    cursor: pointer;
+    color: blue;
+    translate: -4px;
+
+}
+
+.blank {
+    /* background-color: aqua; */
+    width: 220px;
+    height: 56px;
+}
+
+.navigation2 {
+    color: white;
+    height: 32px;
+    border-radius: 4px;
+    padding: 6px 16px;
+    gap: 8px;
+    /* background-color: bisque; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text1 {
+    margin-top: 100px;
+    color: white;
+    background-color: transparent;
+    width: 716px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text2 {
+    font-family: "Montserrat", serif;
+    height: 48px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.text3 {
+    margin-top: 10px;
+    font-family: "Sen", sans-serif;
+    height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text4 {
+    margin-top: 5px;
+    font-family: "Sen", sans-serif;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-family: "Sen", sans-serif;
+    margin-top: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.buttons {
+    display: flex;
+    /* margin: 20px; */
+    align-items: center;
+    height: 72px;
+    width: 600px;
+}
+
+button {
+    width: 264px;
+    height: 40px;
+    border: 0;
+    padding: 11px 40px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: center;
+    backdrop-filter: blur(8px);
+}
+
+.button1 {
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: #F4F4F4CC;
+}
+
+.button2 {
+    color: aliceblue;
+    margin-left: 10px;
+    background-color: #171A20A6;
+}
+
+.button1:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.button2:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a:active {
+    color: aqua;
+}
+
+.footerlast {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 24px;
+}
+
+.Page2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/d6e6/6c6b/c7b9a89b28e7054d63200682392b3184?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q33xQ4HwTUIREWfEYMgM1StBCZl1pSngxF93uztCgbw8MF3FiQIzBPd4tTNJADm5pgNgFNf3H97ebZFVHpBz1K3uv8PBv6sq~p8tjTLXiaeUZDC3e~lZ3z2tJPQsbxq6XZdR5JlJwdVOhxwpnasw2XAmLZA8znqy9U2J3qnB8le9uSLx7p5lW~zBNlrskoINi8RWqFhF0cTAZH6pqhNMz14OFIM5JMACaznCT-L9BwDw4btJFDaCDFi8VvfBuG-o~pJ~EFyAUHiD2JCSfYOBQaxRV8cM2GVYOjPLyVf3Fb2gYGQOXoKPzB2Ysich1byC0rQmtF0Er3Bmq26c5g5Mpg__);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Pagetext {
+    margin-top: 128px;
+    padding: 0px 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Pagetext1 {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    width: 398px;
+    height: 48px;
+}
+
+.Pagetext2 {
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.footer2 {
+    font-family: "Sen", sans-serif;
+    margin-top: 735px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.Page3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/7348/b3e8/d0d912a18fa6ec4f1888f100bc845c36?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O0Q2WJyvhEWHF9dHWYuPpTMKXyR9I6153caEskgEmUALqAiCmkG-GDjAVcUTYPlvrqeUm1ORgjHEJb3pNnGiZX8~CoHeae1b1ZAg~-AMfTlUpazI3fhREooY9~38eTqU7z8o8qt5hI-WCYBj4nuxxlbaelXple4yDCOufd~oU9-9xAOy6I6W2MdMLx75PnBuWbv1QWfDaXz2-0OqUk1~o7VM71CHvHcjTEW7abv4PT2m84MRw-4UKoNCYgXC-iOWVa8niqsur8QeS-8SEhx6PsGt4552DiWtyZ7NhOwNrdXevC0IGulNRCg-T6fU2kimw8fIo3TCKJtKeBa60UMtQg__);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page3text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 240px;
+    margin-top: 110px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Page3text1 {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    line-height: 40px;
+    gap: 8px;
+}
+
+.Page3text2 {
+    margin-top: 10px;
+    font-family: "Sen", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.Page3text3 {
+    font-family: "Sen", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer3 {
+    margin-top: 735px;
+    font-family: "Sen", sans-serif;
+}
+
+.footerlast3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 24px;
+}
+
+.Page4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/8520/0e04/bd6a0fdc156a53b211754b905057b7df?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cgTzEYRfp6CWNlvuE9sgBpkUbzjDURrZxm9wOopqZWxc2mcWQXbZNKi0CfUcFLRMEPug22-G1ZAeS6Pyd2OziTnz0srv1j-FEYXdi9NY6-JkfHTipzQXeO3iG~lYVuTHT~XjSR2shjWFZuCZSSX517YIoa~iodAA7Tp6J8xoRnGWv1wUiFcW-vmJx3g~Czv3TdHexk5JbqUyV8ohwS1ETtE5L-HVwhehygAf0Z5MY0fJ-6irynKOAniU8gKBR1fUSH2J8p7~ZmqTSPyF683LCpsXtnTbkkigIiOCJwG-Rl5rKA7RbwVDb6cSCNJOY595NpGXwbBgxDqOArMM0IyBRw__);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Page4text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 240px;
+    margin-top: 110px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Page4text1 {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    line-height: 40px;
+    gap: 8px;
+}
+
+.Page4text2 {
+    margin-top: 10px;
+    font-family: "Sen", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.Page4text3 {
+    font-family: "Sen", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer4 {
+    margin-top: 835px;
+    font-family: "Sen", sans-serif;
+}
+
+.footerlast4 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 24px;
+}
+
+.Page5 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/76d8/53f4/a13f230d90c69b3806b4b679cf16c9ed?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NLHZqTBCODF9JA3XEqP6HKXRH1flJccrtItRcZnatKta~WMFV9MiesLCCBYWxnZBjtf42OG-hALgofxlVOizzCbz1x5ROGG5Txjlz7N9ct84uAU5CnqHrrZEkquvpog4psF6JE0WLXXE18GxxOJ1RehYKg5TG0vXRw449~kGC5fdMlPwCa9G~daryQ36AC1vwB-JfQDmles-S1Ad94MT-~9R5un9wtQkGD2Eh~suitMd-whq21zpZNbO6tbEoTN6QCQ8K73joQh2-hZsUMnmfeSZRyXC-X8fQ3ha5DFkEJOPmSgG8iPKcqGvkhHzzlyFA~QtkPlud4M0XI15UEMwdA__);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer5 {
+    margin-top: 80vh;
+    height: 140px;
+}
+
+.Page6 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/63f9/ae84/a09b8cb46f83a23604fb332cca93df72?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V3zzK-PkiOtpxXjiuyR6JuTdrvkP21UdqK9ZYWSqjfr03lDfTvwU9SuEhhLkmUMGKd6WjLZxCguEQk3oPiRSUimqIes~ACLrxZQGlbgbCKWjtE-ahPr1euepx5EIMOmHNNNtXpYoKOhqM~ppUmrplf70HRWOLOo23DY54KXslBLD8z7arpNvRr3bdeo4Y-WQ3uJ6Zp6k4pfGPQAEqOMynYRn07KkMKCwLUFwNkpxK34V~Z7iJyd~M3TOfX5zDNjYN191eA2itKeh~GNiiRiyMpzfsgfm5M~y7OpXPBKvYsCSqJPvtGVP9sAjUWSxwBpzLjJByk8XYQwPiNdLhhxPoA__);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page6text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 128px;
+    color: white;
+}
+
+.Page6text1 {
+    font-family: "Montserrat", serif;
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.Page6text2 {
+    font-family: "Sen", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline solid;
+    margin-top: 10px;
+}
+
+.footer6 {
+    /* height: 140px;    */
+    margin-top: 70vh;
+    margin-bottom: 10vh;
+}
+
+.Page7 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/a8f7/e0ef/c1749c353ea58a621c8c633b3efef56e?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OuPqMHw7afAamZA-StzbO-nSG19XmE3yWjevoGM9EhDZIWzJt0972gckbcjav4uqeynjHEG~pb2rj6q5dQNhgF7CMY-FuoGoWudh0eQmOwliMMJGk~PAGtMItlMbbQRq~lG5MnOb4tQE-86qUUy4X6P00i8-SGwi4jZUjPc6ts6f2kYGHne1h9dRMVxx~HPHGYpx1widXXWrBLWr-MshSSiyQeJbps~VTIxugLMF8B0ffocyDokyxf9oMsuW2dZCB6wvmu7M3PJ3aOOz41mOLLKYPvMUk2ElwzCGoiZO9oTgeXthiDb5Mb72OO5VD0moRLXl14-SGn3f6UGNsjPL-w__);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page7text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.Page7text1 {
+    font-family: "Montserrat", serif;
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.Page7text2 {
+    font-family: "Sen", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer7 {
+    height: 140px;
+    margin-top: 750px;
+    margin-bottom: 20px;
+}
+
+.Page8 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/ee62/a6cb/442a5b4ec8bdd443fc0054bf3f323778?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Yp0RS~fzepVtH8-Ndz0rgbD~I52KK74lRjtvkhpVAzIk06gkTHbuInXhmJ6IvKSArtsI6c4EbiSRWRTsPH37XhDXCoaxNbPU4YLGuuNJd88UbkWYkvoesAVDAm7T4vCX~lSJ1qNx4gSrWSqh9DPllCBq-sqVOsI0N8Yi6nM-Dd~tBDoTziGVyZYBNwiBAIV5cnt7WXC3poDPAXpjQPpSIG6DDqD3ftZ6lt4ZH2zBKHTUNcTEbuZifOF22ZUrdvJkJvYxCrvZCypPr1j0SmlC0fJqoEcRmuxcm0~3t9qfWucajc46QuzsLIDgE-OWtSbCgjarYohXahtRk6xv922~Wg__);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page8text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.Page8text1 {
+    font-family: "Montserrat", serif;
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.footer8 {
+    /* height: 140px; */
+    margin-top: 70vh;
+    margin-bottom: 14vh;
+}
+
+.Page9 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/2854/a383/afb989857277aee6919710d8754a76f2?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iL8-E0UIzvjHHlXEzDfsF~U4wQN5SXiF0qkBKFk9Fo3pQQreGLhm5N30kZjppwrHQHmol1Az0sI-zh70iBULygWcIC~r54iYUFmOB2xYErTSqpE6kZZ6CeipIBC1ku9CUGAccdFCVBPLV6SQA9Mpwa5ygDmJfM3NuhUfPKrWqfikf5BJ1XNcifvlhwDcZx3b~t8SlpGHhWYXnwekReynN2zh5zlgbP6iMNAiPr1w-zD4ihtvbepnpuz7M4TJiwEyZIl6kk5~lwp~KEUnwjMsGQaCbpl29ZuHV2mPB3IC8t-yAA9piJ9ZjQ55eGvZauKj7cEcTjzjK5WvPffOPKBDBw__);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page9text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.Page9text1 {
+    font-family: "Montserrat", serif;
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.footer9 {
+    margin-top: 70vh;
+    /* margin-bottom: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footerlast9 {
+    width: 700px;
+}
+
+.ending {
+    padding: 25px 10px;
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+    /* height: 80px; */
+    /* background-color: bisque; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    color: #D0D1D2;
+}
+
+/* .buttoncontrol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+ } */
+
+.button3 {
+    font-family: "Sen", sans-serif;
+    margin-left: 230px;
+    padding: 11px 40px;
+}
+
+.e:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.Page10main {
+    /* height: 100vh; */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page10text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 188px;
+    /* margin-top: 128px; */
+}
+
+#Teslavideo {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.Page10text1 {
+    font-family: "Montserrat", serif;
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.Page10text2 {
+    font-family: "Sen", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    gap: 10px   ;
+}
+
+.footer10 {
+    margin-top: 735px;
+    margin-bottom: 100px;
+}
+
+.button5 {
+    font-family: "Sen", sans-serif;
+    background: transparent;
+    border-color: white solid;
+    color: white;
+    border: white;
+}
+
+#e {
+    text-decoration: none;
+}
+
